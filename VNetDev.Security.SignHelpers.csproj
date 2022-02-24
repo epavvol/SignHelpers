@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <Authors>Pavel Volkov</Authors>
+    <Company />
+    <RepositoryUrl>https://github.com/epavvol/SignHelpers.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>vNetDevLogo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="vNetDevLogo.png">
+      <Pack>True</Pack>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <PackagePath />
+    </None>
+  </ItemGroup>
+  
+</Project>
